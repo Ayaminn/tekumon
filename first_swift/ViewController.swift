@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         
         //アプリが立ち上がるときに背景画像を設定
         haikeiImageView.image = UIImage(named: "Pokemonimages.jpeg")
+        
     }
 
     override func didReceiveMemoryWarning() {
