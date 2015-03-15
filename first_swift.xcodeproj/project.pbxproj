@@ -13,6 +13,12 @@
 		D8AF83361AB58D3D00391C7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AF83351AB58D3D00391C7D /* Images.xcassets */; };
 		D8AF83391AB58D3D00391C7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8AF83371AB58D3D00391C7D /* LaunchScreen.xib */; };
 		D8AF83451AB58D3D00391C7D /* first_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF83441AB58D3D00391C7D /* first_swiftTests.swift */; };
+		D8AF83521AB5A69000391C7D /* falcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8AF83511AB5A69000391C7D /* falcon.png */; };
+		D8AF83561AB5A6A300391C7D /* abemon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8AF83531AB5A6A300391C7D /* abemon.png */; };
+		D8AF83571AB5A6A300391C7D /* Masukuro.png in Resources */ = {isa = PBXBuildFile; fileRef = D8AF83541AB5A6A300391C7D /* Masukuro.png */; };
+		D8AF83581AB5A6A300391C7D /* ottyama.gif in Resources */ = {isa = PBXBuildFile; fileRef = D8AF83551AB5A6A300391C7D /* ottyama.gif */; };
+		D8AF835A1AB5A79800391C7D /* 20081129003939.gif in Resources */ = {isa = PBXBuildFile; fileRef = D8AF83591AB5A79800391C7D /* 20081129003939.gif */; };
+		D8AF835C1AB5A85400391C7D /* PokemonImages.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D8AF835B1AB5A85400391C7D /* PokemonImages.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		D8AF833E1AB58D3D00391C7D /* first_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = first_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AF83431AB58D3D00391C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8AF83441AB58D3D00391C7D /* first_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_swiftTests.swift; sourceTree = "<group>"; };
+		D8AF83511AB5A69000391C7D /* falcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = falcon.png; sourceTree = "<group>"; };
+		D8AF83531AB5A6A300391C7D /* abemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abemon.png; sourceTree = "<group>"; };
+		D8AF83541AB5A6A300391C7D /* Masukuro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Masukuro.png; sourceTree = "<group>"; };
+		D8AF83551AB5A6A300391C7D /* ottyama.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ottyama.gif; sourceTree = "<group>"; };
+		D8AF83591AB5A79800391C7D /* 20081129003939.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20081129003939.gif; sourceTree = "<group>"; };
+		D8AF835B1AB5A85400391C7D /* PokemonImages.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PokemonImages.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		D8AF832B1AB58D3D00391C7D /* first_swift */ = {
 			isa = PBXGroup;
 			children = (
+				D8AF834E1AB5979600391C7D /* Images */,
 				D8AF832E1AB58D3D00391C7D /* AppDelegate.swift */,
 				D8AF83301AB58D3D00391C7D /* ViewController.swift */,
 				D8AF83321AB58D3D00391C7D /* Main.storyboard */,
@@ -110,6 +123,19 @@
 				D8AF83431AB58D3D00391C7D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8AF834E1AB5979600391C7D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D8AF835B1AB5A85400391C7D /* PokemonImages.jpeg */,
+				D8AF83591AB5A79800391C7D /* 20081129003939.gif */,
+				D8AF83531AB5A6A300391C7D /* abemon.png */,
+				D8AF83541AB5A6A300391C7D /* Masukuro.png */,
+				D8AF83551AB5A6A300391C7D /* ottyama.gif */,
+				D8AF83511AB5A69000391C7D /* falcon.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +218,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AF83521AB5A69000391C7D /* falcon.png in Resources */,
+				D8AF83581AB5A6A300391C7D /* ottyama.gif in Resources */,
 				D8AF83341AB58D3D00391C7D /* Main.storyboard in Resources */,
+				D8AF83571AB5A6A300391C7D /* Masukuro.png in Resources */,
 				D8AF83391AB58D3D00391C7D /* LaunchScreen.xib in Resources */,
+				D8AF835C1AB5A85400391C7D /* PokemonImages.jpeg in Resources */,
+				D8AF835A1AB5A79800391C7D /* 20081129003939.gif in Resources */,
+				D8AF83561AB5A6A300391C7D /* abemon.png in Resources */,
 				D8AF83361AB58D3D00391C7D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
